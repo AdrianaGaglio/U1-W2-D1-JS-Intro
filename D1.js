@@ -16,6 +16,8 @@ REGOLE
 const datatype1 = "string";
 const datatype2 = "number";
 const datatype3 = "boolean";
+const datatype4 = "undefined";
+const datatype5 = "null";
 
 console.log(datatype1 + " = indica un valore composto da caratteri alfanumerici, come ad esempio del testo");
 console.log(datatype2 + " = indica un valore di tipo numerico, può essere sia intero (ad esempio 1) oppure decimale (ad esempio 0.1)");
@@ -23,6 +25,8 @@ console.log(
   datatype3 +
     " = può assumere solo i valori true o false, serve a verificare la veridicità di una condizione (ad esempio se il valore di x è maggiore del valore di y)"
 );
+console.log(datatype4 + " = fa riferimento al valore 'vuoto' di una variabile di default quando non viene assegnato nessun valore");
+console.log(datatype5 + " = si riferisce ad un'assenza di valore intenzionale, il valore 'null' è dichiarato dall'utente");
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
