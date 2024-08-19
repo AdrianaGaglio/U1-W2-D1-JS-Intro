@@ -71,6 +71,10 @@ console.log("Il mio cognome è", myName);
 // const myAge = 34;
 // console.log("La mia età è di", (myAge = 33));
 
+// errore mostrato sulla console decommentando le righe sopra
+// Uncaught TypeError: Assignment to constant variable.
+//     at D1.js:72:39
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
